@@ -1,0 +1,30 @@
+.content{
+    position: relative;
+}
+
+#canvas_1, #canvas_2, #canvas_3, #canvas_gg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#canvas_1{
+    z-index: 1;
+}
+
+#canvas_2{
+    z-index: 2;
+}
+
+#canvas_3{
+    z-index: 3;
+}
+
+#canvas_gg{
+    z-index: 4;
+}
+
+
+canvas{
+    border: 1px solid grey;
+}
